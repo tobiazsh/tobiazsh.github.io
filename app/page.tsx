@@ -11,12 +11,11 @@ export default function Home() {
           Hello!
         </span>
 
-        <span className={`aspect-square md:w-1/4 w-1/2 relative ${styles.floating}`}>
+        <span className={`aspect-square md:w-1/4 w-1/2 relative ${styles.floating} rounded-3xl overflow-hidden`}>
           <Image
             src="/pfp.jpg"
             alt="Tobias' Profile Picture"
             fill={true}
-            className={`rounded-3xl`}
           />
         </span>
 
