@@ -8,7 +8,7 @@ export default function Home() {
     <div className={`w-[100dvw] flex justify-center md:p-10 p-3 text-xl`}>
       <div className={`${styles.highlight_border} lg:w-2/3 ${styles.floating} p-10 flex flex-col space-y-10`}>
         <span className={`text-5xl font-semibold`}>
-          Hello!
+          Hello there!
         </span>
 
         <span className={`aspect-square md:w-1/4 w-1/2 relative ${styles.floating} rounded-3xl overflow-hidden`}>
