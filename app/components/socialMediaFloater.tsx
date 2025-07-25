@@ -1,3 +1,5 @@
+"use client";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';

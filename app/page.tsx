@@ -1,6 +1,7 @@
 import styles from "./styles/global.module.css";
 import "./styles/globals.css";
 import SocialMediaFloater from "@/app/components/socialMediaFloater";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,17 +11,33 @@ export default function Home() {
           Hello!
         </span>
 
+        <span className={`aspect-square md:w-1/4 w-1/2 relative ${styles.floating}`}>
+          <Image
+            src="/pfp.jpg"
+            alt="Tobias' Profile Picture"
+            fill={true}
+            className={`rounded-3xl`}
+          />
+        </span>
 
-
-        <div className={`w-2/3`}>
+        <div className={`lg:w-2/3`}>
           <p>I&#39;m Tobias, a 15 year old hobby developer from Austria.</p><br/>
-          <p>I love creating new things and learning new skills. I do thing on my own when something is too slow for me or doesn&#39;t exist yet.</p><br/>
-          <p>I primarily work with Java and TypeScript, but I also have experience with C/C++ and C#!</p><br/>
-          <p>I do mainly Minecraft modding via Fabric in my free time, but I have also worked with GUI applications (ImGui & Qt) and web development (NextJS).</p><br/>
+          <p>I love creating new things and learning new skills.</p><br/>
+          <p>I primarily work with Java and TypeScript, but I also have experience in C+&#8288;+ and C#!</p><br/>
+          <p>I do mainly Minecraft modding via Fabric in my free time, but I have also worked with GUI applications (ImGui & Qt) and web development (NextJS).</p>
         </div>
 
+        <SocialMediaFloater />
+
+        <span className={`${styles.blue_links}`}>
+          I currently work as a hobby developer at
+          <a href={"https://www.snackbag.net/"}> SnackBag </a>
+          and
+          <a href={"https://studio.snackbag.net/"}> SnackBag Studios</a>!
+        </span>
+
         <span>
-          I speak 4 languages:<br/>
+          I speak ...<br/>
           <table style={{borderSpacing: 10, borderCollapse: "separate"}}>
             <tbody>
             <tr><td>🇩🇪🇦🇹</td><td>German (native)</td></tr>
@@ -31,14 +48,6 @@ export default function Home() {
           </table>
         </span>
 
-        <span className={`${styles.blue_links}`}>
-          I currently work as a hobby developer at
-          <a href={"https://www.snackbag.net/"}> SnackBag </a>
-          and
-          <a href={"https://studio.snackbag.net/"}> SnackBag Studios</a>!
-        </span>
-
-        <SocialMediaFloater />
       </div>
     </div>
   );
