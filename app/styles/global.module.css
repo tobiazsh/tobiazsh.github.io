@@ -38,7 +38,7 @@
     box-shadow: 20px 20px 70px rgba(var(--shadow-raw), 0.1);
 }
 
-.center_content_span > a {
+.center_content_a > a {
     height: 100%;
     display: flex;
     justify-content: center;
