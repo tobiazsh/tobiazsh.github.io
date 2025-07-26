@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./styles/global.module.css";
 import "./styles/globals.css";
 import SocialMediaFloater from "@/app/components/socialMediaFloater";
@@ -6,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className={`w-[100dvw] flex justify-center md:p-10 p-3 text-xl`}>
-      <div className={`${styles.highlight_border} lg:w-2/3 ${styles.floating} p-10 flex flex-col space-y-10`}>
+      <div className={`${styles.highlight_border} lg:w-2/3 ${styles.floating} p-10 flex flex-col space-y-10 rounded-4xl!`}>
         <span className={`text-5xl font-semibold`}>
           Hello there!
         </span>
@@ -35,7 +36,7 @@ export default function Home() {
           <a href={"https://studio.snackbag.net/"}> SnackBag Studios</a>!
         </span>
 
-        <span>
+        <div>
           I speak ...<br/>
           <table style={{borderSpacing: 10, borderCollapse: "separate"}}>
             <tbody>
@@ -45,7 +46,11 @@ export default function Home() {
             <tr><td>🇮🇹</td><td>Italian (~A2)</td></tr>
             </tbody>
           </table>
-        </span>
+        </div>
+
+        <Link href={"/contact"} className={`p-5 text-center ${styles.floating} ${styles.highlight_border}`}>
+          Contact me
+        </Link>
 
       </div>
     </div>
