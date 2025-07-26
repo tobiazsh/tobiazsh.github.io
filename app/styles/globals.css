@@ -6,6 +6,7 @@
   --shine-color-raw: 10, 10, 10;
   --background-secondary: #eeefe7;
   --shadow-raw: 0, 0, 0;
+  --primary: #b7e197;
 }
 
 @theme inline {
@@ -19,7 +20,8 @@
     --foreground: #dadada;
     --shine-color-raw: 230, 230, 230;
     --background-secondary: #222222;
-    --shadow-raw: 255, 255, 255
+    --shadow-raw: 255, 255, 255;
+    --primary: #273942;
   }
 }
 
