@@ -28,7 +28,9 @@ export default function ContactPage() {
 					}}
 				/>
 
-				<span className={`flex justify-center`}>If you have to contact me for feedback, questions, problems or other stuff, you can do that via:</span>
+				<span className={`flex justify-center`}>
+					If you want to contact me for feedback, questions, problems or more information about the website (and me), you can do that via:
+				</span>
 
 				<div className={`flex w-full [&_a]:flex-1 ${styles.center_content_a} pt-5 pb-2 max-sm:flex-col max-sm:space-y-5`}>
 					<a href={`https://www.discord.com/users/566693559420452915`}><FaDiscord /> Discord</a>
