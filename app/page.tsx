@@ -15,7 +15,7 @@ export default function Home() {
         <span className={`aspect-square md:w-1/4 w-1/2 relative ${styles.floating} rounded-3xl overflow-hidden`}>
           <Image
             src="/pfp.jpg"
-            alt="Tobias' Profile Picture"
+            alt="Tobias' Profile Picture. White cat with black spots making a funny face."
             fill={true}
           />
         </span>
@@ -26,6 +26,10 @@ export default function Home() {
           <p>I primarily work with Java and TypeScript, but I also have experience in C+&#8288;+ and C#!</p><br/>
           <p>I do mainly Minecraft modding via Fabric in my free time, but I have also worked with GUI applications (ImGui & Qt) and web development (NextJS).</p>
         </div>
+
+        <Link href={"/projects"} className={`text-center ${styles.highlight_border} ${styles.floating} p-5 w-full text-2xl bg-(--primary)!`}>
+          Discover my projects
+        </Link>
 
         <SocialMediaFloater />
 
@@ -48,7 +52,7 @@ export default function Home() {
           </table>
         </div>
 
-        <Link href={"/contact"} className={`p-5 text-center ${styles.floating} ${styles.highlight_border}`}>
+        <Link href={"/contact"} className={`p-5 text-center ${styles.floating} ${styles.highlight_border} text-2xl`}>
           Contact me
         </Link>
 
