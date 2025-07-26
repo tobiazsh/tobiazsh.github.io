@@ -12,12 +12,12 @@ export default function ProjectsPage() {
 				</span>
 
 				<div className={`flex flex-wrap md:w-4/5 w-full gap-5 justify-center`}>
-					<ProjectsPane />
-					<ProjectsPane />
-					<ProjectsPane />
-					<ProjectsPane />
-					<ProjectsPane />
-					<ProjectsPane />
+					<ProjectsPane
+						uuid={"67d23663-c20a-40ce-8d91-c626112eb1d3"}
+						name={"Some Project"}
+						description={"Hello, this is the description of some project"}
+						createdAt={new Date(Date.now())}
+					/>
 				</div>
 			</div>
 		</div>
