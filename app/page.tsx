@@ -27,7 +27,7 @@ export default function Home() {
           <p>I do mainly Minecraft modding via Fabric in my free time, but I have also worked with GUI applications (ImGui & Qt) and web development (NextJS).</p>
         </div>
 
-        <Link href={"/projects"} className={`text-center ${styles.highlight_border} ${styles.floating} p-5 w-full text-2xl bg-(--primary)!`}>
+        <Link href={"/projects"} className={`text-center ${styles.highlight_border} ${styles.floating} ${styles.scale_on_hover} p-5 w-full text-2xl bg-(--primary)!`}>
           Discover my projects
         </Link>
 
@@ -52,7 +52,7 @@ export default function Home() {
           </table>
         </div>
 
-        <Link href={"/contact"} className={`p-5 text-center ${styles.floating} ${styles.highlight_border} text-2xl`}>
+        <Link href={"/contact"} className={`p-5 text-center ${styles.floating} ${styles.highlight_border} ${styles.scale_on_hover} text-2xl`}>
           Contact me
         </Link>
 

@@ -15,7 +15,7 @@ export default function ProjectsPane({ uuid, name, description, createdAt }: Pro
 	const [imgSrc, setImgSrc] = useState(`/${uuid}.png`);
 
 	return (
-		<div className={`${styles.floating} ${styles.highlight_border} w-[20rem] md:w-[25rem] lg:w-[35rem] aspect-[2/3] lg:aspect-[16/14] overflow-hidden`}>
+		<div className={`${styles.floating} ${styles.highlight_border} ${styles.scale_on_hover} w-[20rem] md:w-[25rem] lg:w-[35rem] aspect-[2/3] lg:aspect-[16/14] overflow-hidden cursor-pointer`}>
 			<div className={`relative w-full h-1/2 overflow-hidden`}>
 				<Image
 					src={imgSrc}
@@ -28,7 +28,7 @@ export default function ProjectsPane({ uuid, name, description, createdAt }: Pro
 			<div className={`gap-2 p-5 	flex flex-col`}>
 				<span className={`font-bold text-2xl`}>{name}</span>
 				<span>{description}</span>
-				<span className={`absolute p-5 bottom-0 left-0`}>{createdAt.toDateString()}</span>
+				<span className={`absolute p-5 bottom-0 left-0`}><strong>Created:</strong> {createdAt.toDateString()}</span>
 			</div>
 		</div>
 	);
