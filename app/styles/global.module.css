@@ -49,3 +49,11 @@
 .blue_links > a {
     color: #a497e8;
 }
+
+.scale_on_hover:hover {
+    transform: scale(1.025, 1.025);
+}
+
+.scale_on_hover {
+    transition: transform 0.2s ease-in-out;
+}
