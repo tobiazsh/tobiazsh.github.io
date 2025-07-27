@@ -1,7 +1,7 @@
 import BackToHomeButton from "@/app/components/backToHomeButton";
 import Image from "next/image";
 
-export default function NotFound() {
+export default function GlobalNotFound() {
     return (
         <div className={`w-[100dvw] h-[100dvh]`}>
             <BackToHomeButton />
