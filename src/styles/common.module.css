@@ -1,0 +1,7 @@
+.highlight_border {
+    position: relative;
+    border: 1px solid var(--foreground);
+    border-radius: 2rem;
+    background-color: var(--background-color);
+    box-shadow: 5px 5px 25px rgba(from var(--foreground) r g b / 0.2);
+}

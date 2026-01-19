@@ -5,17 +5,20 @@
     line-height: 1.5;
     font-weight: 400;
 
+    --foreground: rgba(255, 255, 255, 0.87);
+    --background-color: #242424;
+
+    --primary-color: #164b65;
+    --secondary-color: #0e3645;
+
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    color: var(--foreground);
+    background-color: var(--background-color);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    --primary-color: #164b65;
-    --secondary-color: #0e3645;
 
     --panel-color: #3c3c3c;
 }
@@ -27,8 +30,8 @@ body, html {
 
 @media (prefers-color-scheme: light) {
     :root {
-        color: #213547;
-        background-color: #e2e4d3;
+        --foreground: #213547;
+        --background-color: #e2e4d3;
 
         --primary-color: #C0B9DD;
         --secondary-color: #34D1BF;
