@@ -1,6 +1,8 @@
 .title {
     font-size: 3rem;
     font-weight: bolder;
+    width: 100%;
+    text-align: center;
 }
 
 .main_card {
@@ -18,6 +20,13 @@
     aspect-ratio: 1 / 1;
     border-radius: 1rem;
     overflow: hidden;
+}
+
+.techlist li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
