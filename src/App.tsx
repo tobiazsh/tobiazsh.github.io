@@ -67,7 +67,7 @@ function App() {
                 </p>
                 <hr/>
                 <p>
-                    Want to see what I've made so far?<br/>Feel free to check out my projects!
+                    Want to see what I've made so far? — Feel free to check out my projects!
                 </p>
                 <FloatingRedirect to={"/projects"} className={styles.button}>
                     View My Projects
