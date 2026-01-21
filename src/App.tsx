@@ -5,7 +5,6 @@ import lillyPfp from "/lilly.jpg"
 import {C, CPlusPlus, CSharp, Java, React, TypeScript, ViteJS} from "developer-icons";
 import {SiDotnet} from "react-icons/si";
 import FloatingRedirect from "./components/FloatingRedirect.tsx";
-import {Link} from "react-router-dom";
 
 function App() {
 
