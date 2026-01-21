@@ -1,0 +1,15 @@
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.button {
+    text-decoration: inherit;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
