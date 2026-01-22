@@ -1,0 +1,31 @@
+.projects_container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.home_button_container {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .projects_container {
+        /* Single column also needs to be able to shrink */
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .home_button_container {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects_container {
+        width: auto;
+        margin: 20px;
+    }
+}
