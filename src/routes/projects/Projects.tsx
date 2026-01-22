@@ -14,6 +14,10 @@ const Projects = () => {
                              projectName={"MyWorld Traffic Addition"}
                              projectDescription={"A Minecraft Mod that allows you to create 100% customisable and real-looking traffic signs."}
                              clickUrl={"https://modrinth.com/mod/myworld-traffic-addition"}/>
+                <ProjectCard imageUrl={"/tabmanager_icon.png"}
+                             projectName={"TabManager"}
+                             projectDescription={"A Minecraft Mod that allows you to completely customise your creative inventory."}
+                             clickUrl={"https://modrinth.com/mod/tabmanager"}/>
             </div>
         </div>
     )
