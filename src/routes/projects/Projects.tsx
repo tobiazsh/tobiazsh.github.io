@@ -10,7 +10,10 @@ const Projects = () => {
             </span>
             <h1>My Projects</h1>
             <div className={styles.projects_container}>
-                <ProjectCard imageUrl={"/mwta_banner.png"} projectName={"MyWorld Traffic Addition"} projectDescription={"A Minecraft Mod that allows you to create 100% customisable and real-looking traffic signs."}/>
+                <ProjectCard imageUrl={"/mwta_banner.png"}
+                             projectName={"MyWorld Traffic Addition"}
+                             projectDescription={"A Minecraft Mod that allows you to create 100% customisable and real-looking traffic signs."}
+                             clickUrl={"https://modrinth.com/mod/myworld-traffic-addition"}/>
             </div>
         </div>
     )
