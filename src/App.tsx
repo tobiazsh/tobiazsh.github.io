@@ -39,7 +39,7 @@ function App() {
                              style={{width: "100%", height: "100%"}}/>
                     </span>
                     <p>
-                        I am Tobias (aka. Tobiazsh). A {age()}-year-old hobby developer!
+                        I am Tobias (aka. Tobiazsh), a {age()}-year-old hobby developer!
                     </p>
                     <p>
                         I love learning new stuff and challenging myself.<br/>
