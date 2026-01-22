@@ -16,7 +16,7 @@ const ProjectCard =
     return (
         <div className={[commonStyles.highlight_border, styles.card].join(' ')}>
             <span className={styles.title}>{projectName}</span>
-            <span style={{ padding: "20px" }}>{projectDescription}</span>
+            <span>{projectDescription}</span>
             <span className={styles.img_container}>
                 <img src={imageUrl} alt={projectName} className={styles.project_image} />
             </span>

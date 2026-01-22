@@ -1,5 +1,4 @@
 .title {
-    padding-top: 1rem;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -11,12 +10,13 @@
     display: grid;
     grid-template-rows: max-content auto max-content;
     grid-template-columns: auto;
+    padding: 1.5rem;
+    gap: 2rem;
 }
 
 .img_container {
     max-width: 100%;
     aspect-ratio: 1 / 1;
-    margin: 2rem;
     border-radius: 1rem;
     overflow: hidden;
 }
