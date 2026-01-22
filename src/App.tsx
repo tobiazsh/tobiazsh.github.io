@@ -14,7 +14,7 @@ function App() {
         const current = new Date();
         const bday = new Date("2009-10-08");
 
-        let age = current.getFullYear() - bday.getFullYear();
+        const age = current.getFullYear() - bday.getFullYear();
         if (
             current.getMonth() > bday.getMonth() ||
             (current.getMonth() == bday.getMonth() && current.getDate() >= bday.getDate())
