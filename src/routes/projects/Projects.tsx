@@ -5,7 +5,7 @@ import HomeButton from "../../components/HomeButton.tsx";
 
 const Projects = () => {
     return (
-        <div style={{width: "100dvw", display: "flex", alignItems: "center", flexDirection: "column"}}>
+        <div className={styles.container}>
             <span className={styles.home_button_container}>
                 <HomeButton />
             </span>
