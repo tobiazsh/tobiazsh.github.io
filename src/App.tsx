@@ -72,7 +72,7 @@ function App() {
                     View My Projects
                 </FloatingRedirect>
                 <p style={{marginTop: "2em"}}>
-                    If you want to get in touch with me, feel free to reach out!
+                    If you want to get in touch with me, you can ...
                 </p>
                 <FloatingRedirect to={"/contact"} className={styles.button} variant={"secondary"}>
                     Contact Me
